@@ -5,8 +5,10 @@ This repo include 3 files: README.md, Top10.ipynb, Parking.ipynb. This README fi
 
   The purpose of this group project was to explore the top 10 reasons for calling 311 in a zip code of NY10025. And, we will compare the incidence of illegal parking, one of the top ten reasons, in zip code 10025 with that of all of New York City.
 
-  For the Top 10 reasons for calling 311. Firstly, I filter out the zipcode equal to 10025 then groupby 'Compliant Type'. Then sorted the value by 'Number' column in descending order and save the first 10 rows.
+  For the Top 10 reasons for calling 311. Firstly, Zhang filter out the zipcode equal to 10025 then groupby 'Compliant Type'. Then sorted the value by 'Number' column in descending order and save the first 10 rows.
   
+  Liu extracted four numbers, which were, the number of illegal parking and the total number of calls in the 10025 zip code area, and the same in New York City. After that, the incidence of illegal parking in the 10025 area to New York City was compared.
+
   To see the analysis of top 10 incident types, please check a Jupyter notebook called Top10.ipynb. To see the analysis of parking incidents, please check a Jupyter notebook called Parking.ipynb.
 ## About Authors
 Group members: Mengjin Liu with UNI: ml4681, Yingyue Zhang with UNI: yz4139.
